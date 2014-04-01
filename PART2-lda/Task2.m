@@ -134,4 +134,5 @@ for i = 1:size(kvalues, 1)
     % store results
     TABLE = [TABLE;kval totalvar ip];
 end
+
 save('TABLE.mat', 'TABLE');
